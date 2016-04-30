@@ -8,6 +8,7 @@
 <html>
 <head>
     <title>error</title>
+    <link href="dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="dist/css/flat-ui.css" rel="stylesheet">
 </head>
 <body>

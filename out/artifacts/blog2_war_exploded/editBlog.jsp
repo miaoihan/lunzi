@@ -9,6 +9,7 @@
 <!DOCTYPE html>
 <head>
     <title>新博文</title>
+    <link href="dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="dist/css/flat-ui.css" rel="stylesheet">
 </head>
 <body>
@@ -19,9 +20,8 @@
         <input type="hidden" name="id" value="<%= b.getId() %>">
         <input type="hidden" name="user_id" value="<%= b.getUser_id() %>">
         <input type="hidden" name="del_status" value="<%= b.getDel_status() %>">
-        <p>标题: <input type="text" name="title" value="<%= b.getTitle() %>" class="form-control"></p>
-        <p>内容: <textarea name="content" id="" cols="30" rows="50" class="form-control" style="height: 230px;width: 400px;"><%= b.getContent() %></textarea></p>
+        <p>标题: <input type="text" name="title" value="<%= b.getTitle() %>" ></p>
+        <p>内容: <textarea name="content" id="" cols="30" rows="50" style="height: 230px;width: 400px;"><%= b.getContent() %></textarea></p>
         <input type="submit" value="发表" class="btn btn-primary btn-wide">
     </form>
 </body>
-</Document>
