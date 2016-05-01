@@ -32,7 +32,7 @@ public class ShowBlogs extends HttpServlet {
 //        RequestDispatcher dispatcher=
 //                req.getRequestDispatcher("showBlogs.jsp");//转发添加正确页面
 //        dispatcher.forward(req,resp);
-        req.getRequestDispatcher("blogList.jsp").forward(req, resp);
+        req.getRequestDispatcher("blogs.jsp").forward(req, resp);
 
     }
 

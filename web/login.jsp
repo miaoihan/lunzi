@@ -5,6 +5,9 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <% request.setCharacterEncoding("utf-8") ;%>
+<% if (session.getAttribute("user")!=null)
+    response.sendRedirect("blogs.jsp");
+%>
 <html>
 <head>
     <title>登录</title>
