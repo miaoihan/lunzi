@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df18ef20-a424-4107-8a91-56389c3cb8f5" name="Default" comment="some opt">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/blogs.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/blog2_war_exploded/WEB-INF/classes/action/Login.class" afterPath="$PROJECT_DIR$/out/artifacts/blog2_war_exploded/WEB-INF/classes/action/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/blog2_war_exploded/WEB-INF/classes/action/ShowBlogs.class" afterPath="$PROJECT_DIR$/out/artifacts/blog2_war_exploded/WEB-INF/classes/action/ShowBlogs.class" />
+    <list default="true" id="df18ef20-a424-4107-8a91-56389c3cb8f5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/logout.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/blog2_war_exploded/WEB-INF/classes/dao/BlogDao.class" afterPath="$PROJECT_DIR$/out/artifacts/blog2_war_exploded/WEB-INF/classes/dao/BlogDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/blog2/action/Login.class" afterPath="$PROJECT_DIR$/out/production/blog2/action/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/blog2/action/ShowBlogs.class" afterPath="$PROJECT_DIR$/out/production/blog2/action/ShowBlogs.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/blog2/dao/BlogDao.class" afterPath="$PROJECT_DIR$/out/production/blog2/dao/BlogDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/blog2_war_exploded/blogList.jsp" afterPath="$PROJECT_DIR$/out/artifacts/blog2_war_exploded/blogList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/blog2_war_exploded/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/blog2_war_exploded/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/Login.java" afterPath="$PROJECT_DIR$/src/action/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/action/ShowBlogs.java" afterPath="$PROJECT_DIR$/src/action/ShowBlogs.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/BlogDao.java" afterPath="$PROJECT_DIR$/src/dao/BlogDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/vo/Blog.java" afterPath="$PROJECT_DIR$/src/vo/Blog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/blogList.jsp" afterPath="$PROJECT_DIR$/web/blogList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/blogs.jsp" afterPath="$PROJECT_DIR$/web/blogs.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/login.jsp" afterPath="$PROJECT_DIR$/web/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/nice.html" afterPath="$PROJECT_DIR$/web/nice.html" />
     </list>
     <ignored path="blog2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,28 +48,33 @@
       <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/action/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="29" column="40" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="274">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogList.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/blogList.jsp">
+      <file leaf-file-name="Blog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/vo/Blog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="252">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="e#502#503#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#1253#1254#0" expanded="true" />
+                <element signature="e#1299#1300#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/BaseDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="139">
+              <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -82,10 +83,10 @@
       <file leaf-file-name="blogs.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/blogs.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="60" column="70" selection-start-line="60" selection-start-column="70" selection-end-line="60" selection-end-column="70" />
+            <state relative-caret-position="2538">
+              <caret line="141" column="49" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
               <folding>
-                <marker date="1462088001722" expanded="true" signature="11225:11233" placeholder="..." />
+                <marker date="1462279875393" expanded="true" signature="11238:11246" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -94,7 +95,7 @@
       <file leaf-file-name="ShowBlogs.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/action/ShowBlogs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="324">
               <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -103,56 +104,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogDao.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BlogDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/dao/BlogDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
+            <state relative-caret-position="363">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="editBlog.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/editBlog.jsp">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="1224">
+              <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nice.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/nice.html">
+      <file leaf-file-name="logout.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/logout.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="40" selection-end-column="8" />
+            <state relative-caret-position="288">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditBlog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/action/EditBlog.java">
+      <file leaf-file-name="NewBlog.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/action/NewBlog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+            <state relative-caret-position="394">
+              <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-396">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -191,11 +188,9 @@
         <option value="$PROJECT_DIR$/src/action/delBlog.java" />
         <option value="$PROJECT_DIR$/src/action/Register.java" />
         <option value="$PROJECT_DIR$/web/success.jsp" />
-        <option value="$PROJECT_DIR$/src/action/NewBlog.java" />
         <option value="$PROJECT_DIR$/src/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/action/editBlog.java" />
-        <option value="$PROJECT_DIR$/src/vo/Blog.java" />
         <option value="$PROJECT_DIR$/src/action/te.java" />
         <option value="$PROJECT_DIR$/src/action/EditBlog.java" />
         <option value="$PROJECT_DIR$/web/test.jsp" />
@@ -205,12 +200,15 @@
         <option value="$PROJECT_DIR$/web/newBlog.jsp" />
         <option value="$PROJECT_DIR$/web/editBlog.jsp" />
         <option value="$PROJECT_DIR$/web/nice.html" />
-        <option value="$PROJECT_DIR$/src/action/Login.java" />
         <option value="$PROJECT_DIR$/src/action/ShowBlogs.java" />
-        <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/web/blogs.jsp" />
-        <option value="$PROJECT_DIR$/src/dao/BlogDao.java" />
         <option value="$PROJECT_DIR$/web/blogList.jsp" />
+        <option value="$PROJECT_DIR$/web/logout.jsp" />
+        <option value="$PROJECT_DIR$/web/blogs.jsp" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/action/Login.java" />
+        <option value="$PROJECT_DIR$/src/vo/Blog.java" />
+        <option value="$PROJECT_DIR$/src/dao/BlogDao.java" />
+        <option value="$PROJECT_DIR$/src/action/NewBlog.java" />
       </list>
     </option>
   </component>
@@ -286,6 +284,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -347,7 +346,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -390,11 +388,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="vo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,6 +407,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -440,7 +442,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lib/mysql-connector-java-5.1.38/mysql-connector-java-5.1.38-bin.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/project/fun" />
     <property name="SearchEverywhereHistoryKey" value="edit&#9;FILE&#9;file:///home/han/java/blog2/web/editBlog.jsp&#10;web&#9;FILE&#9;file:///home/han/java/blog2/web/WEB-INF/web.xml&#10;we&#9;FILE&#9;file:///home/han/java/blog2/web/WEB-INF/web.xml" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -1010,7 +1012,9 @@
       <workItem from="1461993078768" duration="1827000" />
       <workItem from="1462001313504" duration="24759000" />
       <workItem from="1462069403782" duration="2965000" />
-      <workItem from="1462084722349" duration="3672000" />
+      <workItem from="1462084722349" duration="6046000" />
+      <workItem from="1462111855312" duration="941000" />
+      <workItem from="1462276923405" duration="4272000" />
     </task>
     <task id="LOCAL-00001" summary="some opt">
       <created>1462027662127</created>
@@ -1026,11 +1030,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462031134762</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="some opt">
+      <created>1462088406243</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1462088406243</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97843000" />
+    <option name="totallyTimeSpent" value="105430000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1055,7 +1066,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28504673" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36448598" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1140,13 +1151,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Program_Files/tomcat7/lib/tomcat-coyote.jar!/org/apache/coyote/AbstractProtocol.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="529" column="0" selection-start-line="529" selection-start-column="0" selection-end-line="529" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/Program_Files/tomcat7/lib/tomcat-coyote.jar!/org/apache/tomcat/util/net/JIoEndpoint.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -1228,10 +1232,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
           <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#268#269#0" expanded="false" />
-            <element signature="e#293#294#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1343,13 +1343,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/NewBlog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/DBUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -1361,28 +1354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/vo/Blog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1424,14 +1395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="47" column="48" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/newBlog.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1458,16 +1421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/EditBlog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -1476,35 +1429,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/action/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/action/EditBlog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="29" column="40" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="378">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+    <entry file="file://$PROJECT_DIR$/web/blogList.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="-18">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/logout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/blogs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="60" column="70" selection-start-line="60" selection-start-column="70" selection-end-line="60" selection-end-column="70" />
+        <state relative-caret-position="2538">
+          <caret line="141" column="49" selection-start-line="141" selection-start-column="49" selection-end-line="141" selection-end-column="49" />
           <folding>
-            <marker date="1462088001722" expanded="true" signature="11225:11233" placeholder="..." />
+            <marker date="1462279875393" expanded="true" signature="11238:11246" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/vo/Blog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#1253#1254#0" expanded="true" />
+            <element signature="e#1299#1300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/BaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="48" column="16" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/action/NewBlog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/action/ShowBlogs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="324">
           <caret line="28" column="39" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1514,16 +1536,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/BlogDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" column="82" selection-start-line="24" selection-start-column="82" selection-end-line="24" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/blogList.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="363">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
           <folding />
         </state>
       </provider>

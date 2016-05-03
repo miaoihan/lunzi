@@ -22,7 +22,7 @@ public class BlogDao extends BaseDao {
     }
 
     public List<Blog> getAll(Integer uid){
-        String sql = "select * from blog where del_status = 1 and user_id =" + uid;
+        String sql = "select * from blog where del_status = 1 and user_id =" + uid + "orfer by created_time desc";
         return getBySql(sql);
     }
 
@@ -37,6 +37,7 @@ public class BlogDao extends BaseDao {
                 blog.setContent(res.getString("content"));
                 blog.setUser_id(res.getInt("user_id"));
                 blog.setDel_status(res.getInt("del_status"));
+                blog.setCreate_time(res.getDate("created_time"));
                 list.add(blog);
             }
         } catch (SQLException e) {

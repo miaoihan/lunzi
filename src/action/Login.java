@@ -19,8 +19,8 @@ public class Login extends HttpServlet {
             throws ServletException, IOException {
         req.setCharacterEncoding("UTF-8");
         HttpSession session = req.getSession();
-        User user = new User();
-        UserDao userDao = new UserDao();
+//        User user = new User();
+//        UserDao userDao = new UserDao();
         String username = req.getParameter("username");
         String pwd = req.getParameter("password");
         /**  判断？user   */

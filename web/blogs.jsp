@@ -26,6 +26,7 @@
     /**  查询当前用户的blogs   */
     List<Blog> blogs = new BlogDao().getAll(uid);
 %>
+<a href="logout.jsp">登出</a>
 <div id="main" class="wp uk-grid uk-grid-collapse" style="max-width: 1120px;">
     <div class="uk-width-small-1-1 uk-width-medium-1-4 uk-width-large-1-6">
         <div id="head" data-uk-sticky="{boundary: true,top:80}">
@@ -94,7 +95,7 @@
                     </a></h1>
                         <p><a href="#"><img
                                 src="http://qzhai.net/000/wp-content/uploads/2015/12/111-e1452232566209.jpeg"/></a><%= b.getContent() %>
-                            <time><br>2015年12月30日</time>
+                            <time><br>2016年5月3日</time>
                         </p>
                     </article>
                     <% } %>
@@ -129,7 +130,7 @@
                                                                                                          height='36'
                                                                                                          width='36'/>
                             <div class="author">Hedilict</div>
-                            <div class="content">好主题，就是太贵了，买不起。</div>
+                            <div class="content">主题挺漂亮啊</div>
                         </a></li>
                         <li class="uk-clearfix"><a href="http://qzhai.net/000/archives/1#comment-3"><img alt=''
                                                                                                          src='http://gravatar.duoshuo.com/avatar/c9aa3b7330425eba306a3434237bdd7a?s=36&#038;d=retro&#038;r=g'
@@ -138,7 +139,7 @@
                                                                                                          height='36'
                                                                                                          width='36'/>
                             <div class="author">顶顶顶级</div>
-                            <div class="content">不错的模板</div>
+                            <div class="content"></div>
                         </a></li>
                         <li class="uk-clearfix"><a href="http://qzhai.net/000/archives/16#comment-2"><img alt=''
                                                                                                           src='http://gravatar.duoshuo.com/avatar/008db1fdc14e6c9eda6bd49150753920?s=36&#038;d=retro&#038;r=g'

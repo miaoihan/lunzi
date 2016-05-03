@@ -26,8 +26,8 @@
     %>
     <h4>博客列表</h4>
     <a href="newBlog.jsp">写新博文</a><br>
-    <table>
-        <tr><th>标题:</th><th>内容</th><th>操作</th></tr>
+    <table class="table table-hover">
+        <tr><th>标题:</th><th>内容</th><th colspan="2">操作</th></tr>
         <%
             Integer uid = user.getId();
             /**  查询当前用户的blogs   */
