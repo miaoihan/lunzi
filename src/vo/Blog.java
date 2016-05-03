@@ -12,7 +12,7 @@ public class Blog {
     private String content;
     private Integer user_id;
     private Integer del_status;
-    private Date create_time;
+    private Date created_time;
 
 
 
@@ -64,12 +64,12 @@ public class Blog {
         this.del_status = del_status;
     }
 
-    public Date getCreate_time() {
-        return create_time;
+    public Date getCreated_time() {
+        return created_time;
     }
 
-    public void setCreate_time(Date create_time) {
-        this.create_time = create_time;
+    public void setCreated_time(Date created_time) {
+        this.created_time = created_time;
     }
 }
 
