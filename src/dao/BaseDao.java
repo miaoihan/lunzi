@@ -80,6 +80,7 @@ public class BaseDao {
                 String fname = f.getName();
                 /**  忽略id 保持自增  */
                 if (fname.equals("id")) continue;
+                /**  忽略创建时间 保持默认获取  */
                 if (fname.equals("created_time")) continue;
                 clumName = clumName + fname + ",";
                 /**  修改访问权限，可以访问private   */

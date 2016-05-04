@@ -12,10 +12,10 @@
 <html>
 <head>
     <title>blogs</title>
-    <link rel='stylesheet' id='qzhai-css' href='http://qzhai.net/000/wp-content/themes/No.7_qzhai/css/style.css?ver=4.5'
-          type='text/css' media='all'/>
-    <script type='text/javascript'
-            src='http://qzhai.net/000/wp-content/themes/No.7_qzhai/js/jquery.min.js?ver=4.5'></script>
+    <link rel="stylesheet" href="dist/css/style.css" media="all">
+    <%--<link rel='stylesheet' id='qzhai-css' href='http://qzhai.net/000/wp-content/themes/No.7_qzhai/css/style.css?ver=4.5'--%>
+          <%--type='text/css' media='all'/>--%>
+    <script type='text/javascript' src='dist/js/vendor/jquery.min.js'></script>
     <link rel='https://api.w.org/' href='http://qzhai.net/000/wp-json/'/>
     <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://qzhai.net/000/xmlrpc.php?rsd"/>
     <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://qzhai.net/000/wp-includes/wlwmanifest.xml"/>
@@ -31,9 +31,10 @@
     <div class="uk-width-small-1-1 uk-width-medium-1-4 uk-width-large-1-6">
         <div id="head" data-uk-sticky="{boundary: true,top:80}">
             <div class="uk-panel">
+                <!-- 头像 -->
                 <div class="tx">
                     <a href="#my-head" data-uk-modal> <img
-                            src="http://qzhai.net/000/wp-content/uploads/2016/03/tx2.jpg"/>
+                            src="/dist/img/user/touxiang.jpg"/>
                     </a></div>
                 <h1 class="uk-panel-title"><a href="blogs.jsp"><%= user.getNikname() %>
                 </a></h1>
@@ -42,7 +43,7 @@
                     <div>
                         <span><%= blogs.size() %></span>
                         <span><i class="uk-icon-file-text"></i></span>
-                        <a href="http://qzhai.net/000/%e5%bd%92%e6%a1%a3" title="文章"
+                        <a href="/blogs.jsp" title="文章"
                            data-uk-tooltip="{pos:'bottom'}"></a>
                     </div>
                     <div>
@@ -138,8 +139,8 @@
                                                                                                          class='avatar avatar-36 photo'
                                                                                                          height='36'
                                                                                                          width='36'/>
-                            <div class="author">顶顶顶级</div>
-                            <div class="content"></div>
+                            <div class="author">陌生的小鱼</div>
+                            <div class="content">顶顶顶级</div>
                         </a></li>
                         <li class="uk-clearfix"><a href="http://qzhai.net/000/archives/16#comment-2"><img alt=''
                                                                                                           src='http://gravatar.duoshuo.com/avatar/008db1fdc14e6c9eda6bd49150753920?s=36&#038;d=retro&#038;r=g'
