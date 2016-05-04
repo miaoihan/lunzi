@@ -95,8 +95,8 @@
                     <article class="article"><h1><a href="http://qzhai.net/000/archives/16"><%= b.getTitle() %>
                     </a></h1>
                         <p><a href="#"><img
-                                src="http://qzhai.net/000/wp-content/uploads/2015/12/111-e1452232566209.jpeg"/></a><%= b.getContent() %>
-                            <time><br>2016年5月3日</time>
+                                src="dist/img/user/a2.jpeg"/></a><%= b.getContent() %>
+                            <time><br><%= b.getCreated_time() %></time>
                         </p>
                     </article>
                     <% } %>
@@ -116,8 +116,8 @@
                 <li><h4>最新评论</h4>
                     <ul class="uk-list com">
                         <li class="uk-clearfix"><a href="http://qzhai.net/000/archives/10#comment-8"><img alt=''
-                                                                                                          src='http://gravatar.duoshuo.com/avatar/998fb109a0e59aa816ce08b77115a405?s=36&#038;d=retro&#038;r=g'
-                                                                                                          srcset='http://gravatar.duoshuo.com/avatar/998fb109a0e59aa816ce08b77115a405?s=72&amp;d=retro&amp;r=g 2x'
+                                                                                                          src='dist/img/user/q1.png'
+                                                                                                          <%--srcset='http://gravatar.duoshuo.com/avatar/998fb109a0e59aa816ce08b77115a405?s=72&amp;d=retro&amp;r=g 2x'--%>
                                                                                                           class='avatar avatar-36 photo'
                                                                                                           height='36'
                                                                                                           width='36'/>
@@ -125,8 +125,8 @@
                             <div class="content">赞一个</div>
                         </a></li>
                         <li class="uk-clearfix"><a href="http://qzhai.net/000/archives/7#comment-6"><img alt=''
-                                                                                                         src='http://gravatar.duoshuo.com/avatar/b161e99a67ac3f25349628f27eb40b47?s=36&#038;d=retro&#038;r=g'
-                                                                                                         srcset='http://gravatar.duoshuo.com/avatar/b161e99a67ac3f25349628f27eb40b47?s=72&amp;d=retro&amp;r=g 2x'
+                                                                                                         src='dist/img/user/q2.png'
+                                                                                                         <%--srcset='http://gravatar.duoshuo.com/avatar/b161e99a67ac3f25349628f27eb40b47?s=72&amp;d=retro&amp;r=g 2x'--%>
                                                                                                          class='avatar avatar-36 photo'
                                                                                                          height='36'
                                                                                                          width='36'/>
@@ -134,7 +134,7 @@
                             <div class="content">主题挺漂亮啊</div>
                         </a></li>
                         <li class="uk-clearfix"><a href="http://qzhai.net/000/archives/1#comment-3"><img alt=''
-                                                                                                         src='http://gravatar.duoshuo.com/avatar/c9aa3b7330425eba306a3434237bdd7a?s=36&#038;d=retro&#038;r=g'
+                                                                                                         src='dist/img/user/q1.png'
                                                                                                          srcset='http://gravatar.duoshuo.com/avatar/c9aa3b7330425eba306a3434237bdd7a?s=72&amp;d=retro&amp;r=g 2x'
                                                                                                          class='avatar avatar-36 photo'
                                                                                                          height='36'
@@ -143,7 +143,7 @@
                             <div class="content">顶顶顶级</div>
                         </a></li>
                         <li class="uk-clearfix"><a href="http://qzhai.net/000/archives/16#comment-2"><img alt=''
-                                                                                                          src='http://gravatar.duoshuo.com/avatar/008db1fdc14e6c9eda6bd49150753920?s=36&#038;d=retro&#038;r=g'
+                                                                                                          src='dist/img/user/q2.png'
                                                                                                           srcset='http://gravatar.duoshuo.com/avatar/008db1fdc14e6c9eda6bd49150753920?s=72&amp;d=retro&amp;r=g 2x'
                                                                                                           class='avatar avatar-36 photo'
                                                                                                           height='36'
@@ -167,7 +167,7 @@
 
                 </li>
                 <li class="adimg"><a href="http://qzhai.net/2016-03-546.html" target="_blank"><img
-                        src="http://qzhai.net/000/wp-content/uploads/2016/01/016699565eaff132f875ae342bd9aa-683x1024.jpg"></a>
+                        src="dist/img/user/fj.jpg"></a>
                 </li>
             </ul>
         </div>
